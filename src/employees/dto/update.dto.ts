@@ -1,9 +1,9 @@
 import { ApiProperty } from '@nestjs/swagger';
 
 
-export class FilterDto{
+export class UpdateDto{
   @ApiProperty()
-  skip: number;
+  property_name: string;
   @ApiProperty()
-  limit: number;
+  property_value: string;
 }
